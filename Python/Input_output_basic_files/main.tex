@@ -1,0 +1,189 @@
+%------------------------
+% Resume Template
+% Author : Udit Tiwari
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Udit Tiwari}} & Email: \href{mailto:}{udittiwari1502@gmail.com}\\
+   & Mobile:~~~+91-9111551116 \\
+  \href{https://www.linkedin.com/in/udit-tiwari-07176b149/}{Linkedin: ~~https://www.linkedin.com/in/udit-tiwari-07176b149/} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{~~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Symbiosis University of Applied Sciences, Indore}{Indore, India}
+      {Bachelor of Technology - Computer Science and
+Information Technology;  CGPA: 7.63}{July 2017 - June 2021}
+      % {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Operating Systems, Data Structures, Analysis Of Algorithms, Networking, Databases}}}
+    \resumeSubHeadingListEnd
+	    
+\vspace{-5pt}
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~Python, PostgreSQL, Nextjs, JavaScript}
+	\resumeSubItem{Frameworks}{~~~~FastAPI, Flask, OpenAI, TensorFlow}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~~PostgreSQL , Airflow, GIT, Redis , Salesforce, Kubernetes, Docker, VS Code , Jira , Azure }
+	\resumeSubItem{Soft Skills}{~~~~~~~Leadership, Collaboration, Teamwork, Time Management}
+
+\resumeSubHeadingListEnd
+
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading{Greendeck - (Now Quantive)}{Indore}
+    {Software Engineering Developer - Data Engineering(Full-time)}{Nov 2021 - Present}
+    \resumeItemListStart
+        \resumeItem{Used Python programming languages to design and develop scalable data pipelines, and Apache Airflow frameworks to orchestrate and schedule ETL workflows to guarantee the scalability and reliability of data processing.}
+          {Used PostgreSQL databases for data storage, retrieval, and optimisation along
+with SQL to implement processes for data integration and transformation.}
+          \resumeItem{Worked with cross-functional teams to comprehend business requirements and create PostgreSQL data models, schemas, and architectures that will optimise query performance and data organisation.}
+          {Ensured data quality, integrity, and availability by monitoring and optimising
+data pipelines with tools like Airflow and Kafka Connect while also enhancing
+system performance and resource usage.}
+          \resumeItem{Implemented GPT and OpenAI services to develop projects incorporating natural language processing, text generation, and intelligent decision-making capabilities.}{Used Apache Kafka as a distributed streaming platform to enable effective and scalable data streaming pipelines for real-time data ingestion, transformation, and
+processing.}
+
+      \resumeItemListEnd
+      
+\vspace{-5pt}
+    \resumeSubheading
+		{TechLene Software Solutions Pvt. Ltd}{Indore}{(Internship)}{May 2019 -  July 2019}
+		\resumeItemListStart
+        \resumeItem{Collected and synthesized information for the development of a Customer Relationship Management , Enterprise Resource Planning system.}
+          {focusing on specific modules, conducting thorough testing, and incorporating feedback to enhance the CRM ERP's functionality.}
+        \resumeItem{Engaged }
+          {As an information gatherer to establish the user interface of the ERP system's front-end.}
+        \resumeItem{Worked}{In close collaboration with the Techlene Software Solution Pvt. Ltd team to ensure that the ERP system aligned with both the company's requirements and the expectations of its customers..}
+		\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\vspace{-5pt}
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{SeatExceed-Notification-Service }{The Seat Overage Notification project is a system designed to monitor and manage seat allocations for customers, ensuring optimal seat utilization. The project incorporates both email and Slack notifications to effectively communicate seat overage information to the relevant stakeholders.Tech: Python, Airflow, Azure Synapse, Mailgun, & Slack-integration. }
+\vspace{2pt}
+\resumeSubItem{Reinforcement Learning based Traffic Control System (Reinforcement Learning, Computer Vision)}{AI model to resolve city traffic around 50\% faster. Tech: Python, Alibaba Cloud, Raspberry Pi, Arduino, & OpenCV. }
+\vspace{2pt}
+\resumeSubItem{Self Driving Car System}{Build a self driving car system that can be used on a variety of different car models. Neural Networks and Deep Learning algorithms were used to make
+the car drive on its own. Raspberry Pi was used as the main controller for the
+car Tech:  Python ,Raspberry Pi & OpenCV}
+\vspace{2pt}
+\resumeSubItem{Serving Robot}{An Arduino-based robot utilizing two Johnson motors, a motor driver, and integrated with Raspberry Pi for advanced object detection. Equipped with Bluetooth connectivity, it effortlessly moves in all directions, making it a promising step towards intelligent serving robotics }
+\vspace{2pt}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\section{Certifications}
+\resumeSubHeadingListStart
+\resumeSubItem{Programming with Python}{Internshala  (June '20)}
+\vspace{2pt}
+\resumeSubItem{Python for Data Science and AI}{Coursera (May '20)}
+\vspace{2pt}
+\resumeSubItem{Redis}{Eduonix Learning Solutions Pvt Ltd (Dec '21) }
+\vspace{2pt}
+\resumeSubItem{Core C}{Coding Ninjas (Feb '21) }
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+%-----------Awards-----------------
+\section{Honors and Awards}
+\begin{description}[font=$\bullet$]
+\item {Runner Up in Inter Company Idea  Using openAi Competition  - 05, 2023}
+\vspace{-5pt}
+\item { Runner Up in E -junkyard SUAS -  01, 2018 }
+\vspace{-5pt}
+
+\end{description}
+
+\vspace{-5pt}
+\section{LANGUAGES}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+    {English}{-}
+    {Proficient}
+
+    % \vspace{10pt}\textbf{\large{Community Experience}}
+    \resumeSubheading
+    {Hindi}
+    {-}{Proficient}
+
+\resumeSubHeadingListEnd
+
+\end{document}
