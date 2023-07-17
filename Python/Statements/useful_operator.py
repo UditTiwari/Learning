@@ -35,7 +35,7 @@ for item in zip(mylistone,mylisttwo):
 
 check = 2 in [1,2,3]
 print(check)
-check = 'x' in ['t','x','z']
+check = 'x' in ['t','x','z']f
 
 checkdic = 'mykey' in {'mykey':345}
 print(checkdic)
